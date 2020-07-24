@@ -2,9 +2,9 @@
 
 Generates EDL timelines from MIDI files.
 
-## TL;DR:
+## TL;DR:
 
-TODO: place image here
+![tldr](https://user-images.githubusercontent.com/725536/88414832-c8e2e180-cddd-11ea-9030-17addaf80873.png)
 
 ## In detail:
 
