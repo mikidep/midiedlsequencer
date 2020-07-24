@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "midiedlsequencer"
+version = "0.1.0"
+description = "Generates EDL timelines from MIDI files."
+authors = ["Michele De Pascalis <michele.de.pascalis.1024@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pyyaml = "^5.3.1"
+mido = "^1.2.9"
+pretty_midi = "^0.2.9"
+docopt = "^0.6.2"
+opentimelineio = "^0.12.1"
+schema = "^0.7.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
+[tool.poetry.scripts]
+midiedlsequencer = "midiedlsequencer:entrypoint"
