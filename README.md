@@ -40,7 +40,19 @@ For each of these samples an EDL file named according to the ```name``` attribut
 
 The purpose of this script is to aid the editing of videos involving samples taken from, or otherwise associated to, video clips, where one wants to have the clips appear on time with some MIDI sequencing of the corresponding samples.
 
-## Installation (from source)
+## Installation
+
+### From wheel
+
+Download the ```.whl``` file from the [Releases](https://github.com/mikidep/midiedlsequencer/releases) page. Then, in the download folder:
+
+```sh
+python3 -m pip install midiedlsequencer*.whl
+```
+
+Note that the pip script path (usually ```~/.local/bin```) should be in your ```$PATH```.
+
+### From source
 
 First, get [Poetry](https://python-poetry.org/) if not already installed. Then:
 
@@ -48,10 +60,8 @@ First, get [Poetry](https://python-poetry.org/) if not already installed. Then:
 git clone https://github.com/mikidep/midiedlsequencer.git
 cd midiedlsequencer
 poetry build --format wheel
-python -m pip install dist/midiedlsequencer*.whl
+python3 -m pip install dist/midiedlsequencer*.whl
 ```
-
-Note that the pip script path (usually ```~/.local/bin```) should be in your ```$PATH```.
 
 ## Usage
 
